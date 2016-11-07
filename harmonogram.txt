@@ -1,0 +1,3 @@
+Na zajêcia 07.11.16 przygotowa³em implementacje perceptronu obs³uguj¹cego pojedynczy neuron z piêcioma dendrytami, którego celem jest znalezienie wzorca skladaj¹cego siê z dwoch znaków w 5-znakowym buforze.
+
+Dalszym celem jest usystematyzowanie wyniku dzia³ania sieci neuronowej i zmodyfikowanie jej do stanu w którym rozró¿nia kolejnosc ulozenia liter w buforze (np. informuj¹c o tym czy znaki ":" i ")" tworz¹ emotikonê.
