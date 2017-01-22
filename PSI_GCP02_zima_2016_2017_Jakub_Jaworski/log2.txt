@@ -1,0 +1,151 @@
+"C:\Program Files\Java\jdk1.8.0_73\bin\java" -Didea.launcher.port=7536 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Users\Jakub\Desktop\Pong\PSI_GCP03_zima_2016_2017_Jakub_Jaworski\target\classes;C:\Users\Jakub\.m2\repository\org\beykery\neuroph\2.92\neuroph-2.92.jar;C:\Users\Jakub\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Jakub\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Jakub\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar;C:\Users\Jakub\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Main
+
+Wczytano obrazek!
+Rozmiary obrazka: 480px szerokoœci, 744px wysokoœci
+Szerokosc jednego elementu: 120
+Wysokosc jednego elementu: 106
+
+Perceptron:
+
+epoka: 1 - b³¹d MSE: 0.18333333333333332
+epoka: 2 - b³¹d MSE: 0.08333333333333333
+epoka: 3 - b³¹d MSE: 0.06666666666666667
+epoka: 4 - b³¹d MSE: 0.08333333333333333
+epoka: 5 - b³¹d MSE: 0.0
+epoka: 5 - b³¹d MSE: 0.0
+Czas uczenia: 3.0 milisekund
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 1 1 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:1.0
+
+Siec wielowarstwowa:
+
+epoka: 1 - b³¹d MSE: 0.09316345546633999
+epoka: 2 - b³¹d MSE: 0.0788006384760703
+epoka: 3 - b³¹d MSE: 0.0684243931815833
+epoka: 4 - b³¹d MSE: 0.05967135415496682
+epoka: 5 - b³¹d MSE: 0.05229214752355354
+epoka: 6 - b³¹d MSE: 0.046196567765255894
+epoka: 7 - b³¹d MSE: 0.04126741107354242
+epoka: 8 - b³¹d MSE: 0.03731562257175077
+epoka: 9 - b³¹d MSE: 0.034127506370919616
+epoka: 10 - b³¹d MSE: 0.031515115890849016
+epoka: 11 - b³¹d MSE: 0.029333802888319774
+epoka: 12 - b³¹d MSE: 0.02747851303152656
+epoka: 13 - b³¹d MSE: 0.02587409155050775
+epoka: 14 - b³¹d MSE: 0.02446637581799694
+epoka: 15 - b³¹d MSE: 0.023215616549444634
+epoka: 16 - b³¹d MSE: 0.022091978876840685
+epoka: 17 - b³¹d MSE: 0.021072544481245462
+epoka: 18 - b³¹d MSE: 0.020139322656059073
+epoka: 19 - b³¹d MSE: 0.019277924676808996
+epoka: 20 - b³¹d MSE: 0.018476673386665816
+epoka: 21 - b³¹d MSE: 0.017725999865060457
+epoka: 22 - b³¹d MSE: 0.017018030422029998
+epoka: 23 - b³¹d MSE: 0.01634629954064593
+epoka: 24 - b³¹d MSE: 0.015705544761578368
+epoka: 25 - b³¹d MSE: 0.01509155251753008
+epoka: 26 - b³¹d MSE: 0.014501032648302253
+epoka: 27 - b³¹d MSE: 0.013931505789499721
+epoka: 28 - b³¹d MSE: 0.013381193291656324
+epoka: 29 - b³¹d MSE: 0.012848904385178932
+epoka: 30 - b³¹d MSE: 0.012333919955123037
+epoka: 31 - b³¹d MSE: 0.011835876090002275
+epoka: 32 - b³¹d MSE: 0.011354652945241885
+epoka: 33 - b³¹d MSE: 0.010890275051481458
+epoka: 34 - b³¹d MSE: 0.010442828093709468
+epoka: 35 - b³¹d MSE: 0.01001239494815505
+epoka: 36 - b³¹d MSE: 0.009599011193668603
+epoka: 36 - b³¹d MSE: 0.009599011193668603
+Czas uczenia: 15.0 milisekund
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 1 1 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.9080255478218869
+
+Adaline (regu³a Delta):
+
+epoka: 1 - b³¹d MSE: 0.07856646198482357
+epoka: 2 - b³¹d MSE: 0.04699819720674297
+epoka: 3 - b³¹d MSE: 0.028211053164275596
+epoka: 4 - b³¹d MSE: 0.017620027683693196
+epoka: 5 - b³¹d MSE: 0.01232782488861792
+epoka: 6 - b³¹d MSE: 0.00958684660027214
+epoka: 6 - b³¹d MSE: 0.00958684660027214
+Czas uczenia: 1.0 milisekund
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 1 1 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.9326481757858827
+
+Sieæ Hebb'a z nauczycielem:
+
+epoka: 1 - b³¹d MSE: 0.17067539861506742
+epoka: 2 - b³¹d MSE: 0.06446015721381658
+epoka: 3 - b³¹d MSE: 0.03778705607517512
+epoka: 4 - b³¹d MSE: 0.025836767952467466
+epoka: 5 - b³¹d MSE: 0.021268669303232457
+epoka: 6 - b³¹d MSE: 0.018607591239515074
+epoka: 7 - b³¹d MSE: 0.016163497337901726
+epoka: 8 - b³¹d MSE: 0.014207034881285278
+epoka: 9 - b³¹d MSE: 0.01242369569983611
+epoka: 10 - b³¹d MSE: 0.010912663622160814
+epoka: 11 - b³¹d MSE: 0.009627231209485053
+epoka: 11 - b³¹d MSE: 0.009627231209485053
+Czas uczenia: 2.0 milisekund
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 1 1 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.8626431103716738
+
+Sieæ Hebb'a bez nauczyciela:
+
+epoka: 1
+epoka: 1
+Czas uczenia: 0.0 milisekund
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 1 1 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:3.137670813786034
+
+Sieæ Kohonen'a:
+
+Czas uczenia: 4.0 milisekund
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 1 1 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:2.107597342704641
+
+
+Process finished with exit code 0

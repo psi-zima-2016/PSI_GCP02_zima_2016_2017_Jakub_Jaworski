@@ -1,0 +1,737 @@
+"C:\Program Files\Java\jdk1.8.0_73\bin\java" -Didea.launcher.port=7533 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Users\Jakub\Desktop\Pong\PSI_GCP03_zima_2016_2017_Jakub_Jaworski\target\classes;C:\Users\Jakub\.m2\repository\org\beykery\neuroph\2.92\neuroph-2.92.jar;C:\Users\Jakub\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Jakub\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Jakub\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar;C:\Users\Jakub\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Main
+
+Perceptron:
+
+epoka: 1 - b³¹d MSE: 0.08333333333333333
+epoka: 2 - b³¹d MSE: 0.06666666666666667
+epoka: 3 - b³¹d MSE: 0.06666666666666667
+epoka: 4 - b³¹d MSE: 0.016666666666666666
+epoka: 5 - b³¹d MSE: 0.03333333333333333
+epoka: 6 - b³¹d MSE: 0.0
+epoka: 6 - b³¹d MSE: 0.0
+Czas uczenia: 4.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:0.0
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:1.0
+
+Siec wielowarstwowa:
+
+epoka: 1 - b³¹d MSE: 0.16148401285277364
+epoka: 2 - b³¹d MSE: 0.10894118365484082
+epoka: 3 - b³¹d MSE: 0.09029635542919962
+epoka: 4 - b³¹d MSE: 0.07679626893332184
+epoka: 5 - b³¹d MSE: 0.06673518399619623
+epoka: 6 - b³¹d MSE: 0.05910353812934123
+epoka: 7 - b³¹d MSE: 0.05307465498944146
+epoka: 8 - b³¹d MSE: 0.04815290145403251
+epoka: 9 - b³¹d MSE: 0.044041616210371295
+epoka: 10 - b³¹d MSE: 0.04055629205346625
+epoka: 11 - b³¹d MSE: 0.03757518701502161
+epoka: 12 - b³¹d MSE: 0.035011570867899494
+epoka: 13 - b³¹d MSE: 0.03279856703960684
+epoka: 14 - b³¹d MSE: 0.030881336337989992
+epoka: 15 - b³¹d MSE: 0.02921333745384966
+epoka: 16 - b³¹d MSE: 0.02775463744857986
+epoka: 17 - b³¹d MSE: 0.026471086370180273
+epoka: 18 - b³¹d MSE: 0.025333744171694393
+epoka: 19 - b³¹d MSE: 0.024318314727617907
+epoka: 20 - b³¹d MSE: 0.02340453993325938
+epoka: 21 - b³¹d MSE: 0.022575585387512417
+epoka: 22 - b³¹d MSE: 0.02181746128327296
+epoka: 23 - b³¹d MSE: 0.021118508527912035
+epoka: 24 - b³¹d MSE: 0.02046896291666555
+epoka: 25 - b³¹d MSE: 0.01986059756096967
+epoka: 26 - b³¹d MSE: 0.019286436755624935
+epoka: 27 - b³¹d MSE: 0.018740531596930753
+epoka: 28 - b³¹d MSE: 0.018217787209978017
+epoka: 29 - b³¹d MSE: 0.0177138321197683
+epoka: 30 - b³¹d MSE: 0.017224921330792873
+epoka: 31 - b³¹d MSE: 0.01674786567577573
+epoka: 32 - b³¹d MSE: 0.016279980825632832
+epoka: 33 - b³¹d MSE: 0.015819050043666103
+epoka: 34 - b³¹d MSE: 0.015363295422407448
+epoka: 35 - b³¹d MSE: 0.014911353084637391
+epoka: 36 - b³¹d MSE: 0.014462248746957769
+epoka: 37 - b³¹d MSE: 0.014015371140251809
+epoka: 38 - b³¹d MSE: 0.01357044196454933
+epoka: 39 - b³¹d MSE: 0.01312748215999628
+epoka: 40 - b³¹d MSE: 0.012686775119913628
+epoka: 41 - b³¹d MSE: 0.012248827934413597
+epoka: 42 - b³¹d MSE: 0.011814331823416646
+epoka: 43 - b³¹d MSE: 0.011384122701802122
+epoka: 44 - b³¹d MSE: 0.010959142492090056
+epoka: 45 - b³¹d MSE: 0.010540401533912959
+epoka: 46 - b³¹d MSE: 0.010128942341282908
+epoka: 47 - b³¹d MSE: 0.009725805042209516
+epoka: 47 - b³¹d MSE: 0.009725805042209516
+Czas uczenia: 21.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.3211115720493959
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:0.05256911752288859
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.01134082227041639
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:0.02180219370485226
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:0.044142986944217616
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:0.01241457362310983
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.0014350449909349046
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.8709530728838316
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:0.9302763999976356
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:0.9024955565275536
+
+Adaline (regu³a Delta):
+
+epoka: 1 - b³¹d MSE: 0.17329039305535618
+epoka: 2 - b³¹d MSE: 0.06466439069163078
+epoka: 3 - b³¹d MSE: 0.030443078614121235
+epoka: 4 - b³¹d MSE: 0.020531954327782074
+epoka: 5 - b³¹d MSE: 0.016661432641787936
+epoka: 6 - b³¹d MSE: 0.014463753178495905
+epoka: 7 - b³¹d MSE: 0.012447479445578832
+epoka: 8 - b³¹d MSE: 0.010590098211744736
+epoka: 9 - b³¹d MSE: 0.009081170776331644
+epoka: 9 - b³¹d MSE: 0.009081170776331644
+Czas uczenia: 2.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:-0.3805536314885804
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:-0.3452840886119742
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:-0.2497181712979064
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:-0.5516352506803595
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:-0.18686466296184556
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:-0.3694502257049751
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:-1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:1.0
+
+Sieæ Hebb'a z nauczycielem:
+
+epoka: 1 - b³¹d MSE: 0.08825682966688948
+epoka: 2 - b³¹d MSE: 0.03255230632170227
+epoka: 3 - b³¹d MSE: 0.020005194407161777
+epoka: 4 - b³¹d MSE: 0.0158544258553079
+epoka: 5 - b³¹d MSE: 0.012457360140563081
+epoka: 6 - b³¹d MSE: 0.010495422718319594
+epoka: 7 - b³¹d MSE: 0.009088503369586273
+epoka: 7 - b³¹d MSE: 0.009088503369586273
+Czas uczenia: 1.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:-0.5248225547101971
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:0.2785445485566431
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:-0.3291572643984207
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:-0.25681654889658867
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:-0.535129672354407
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:-0.720620798463727
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:0.9925224753371782
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:1.0
+
+Sieæ Hebb'a bez nauczyciela:
+
+epoka: 1
+epoka: 1
+Czas uczenia: 1.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:-1.164369930020746
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:-0.5342050112206835
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:-0.5853060351784832
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:-0.5086150636878477
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:-0.9883272108060415
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:-0.29426957483037697
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:-2.951902041694504
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:-2.951951510491632
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:-2.9748619530295324
+
+Sieæ Kohonen'a:
+
+Czas uczenia: 4.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:2.0768964024906205
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:2.711270767026348
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:2.437950904986167
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:2.474664047535025
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:2.9175278384532604
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:2.813391776771252
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:2.918429399266094
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:1.8271685975820733
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:1.8292339128730064
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:1.7690163003233714
+
+Rekurencyjna sieæ Hopfield'a:
+
+Czas uczenia: 1.0 milisekund
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+1 0 0 0 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 
+1 0 0 0 
+0 1 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 0 0 
+0 0 0 0 
+0 0 1 0 
+0 1 0 0 
+0 0 0 0 
+0 0 0 1 
+0 1 0 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 
+0 0 1 0 	Wyjœcie:0.0
+
+Wejscie:
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 
+0 0 0 1 	Wyjœcie:0.0
+
+Wejscie:
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 	Wyjœcie:1.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+0 0 0 1 
+1 0 0 1 
+0 1 1 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 0 1 0 	Wyjœcie:0.0
+
+Wejscie:
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 1 0 
+1 0 0 1 
+1 0 0 1 
+0 1 0 0 	Wyjœcie:0.0
+
+
+Process finished with exit code 0
